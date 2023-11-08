@@ -1,0 +1,6 @@
+gcc -c display_b.c -o display_b.o
+gcc -o toggle_bit toggle_bit.c display_b.o
+
+p=leftshift
+p-n+1=rightshift
+	
