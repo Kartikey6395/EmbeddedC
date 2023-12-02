@@ -8,7 +8,7 @@ int check_set_bit(int NUM , int bit)
 	if((NUM&mask)!=0)
 		return NUM;
 	else
-		return (NUM&mask);
+		return (NUM|mask);
 }
 
 int main()
